@@ -17,7 +17,7 @@ gem "octokit"
 gem "puma"
 
 gem "diffy"
-gem "nokogiri"
+gem "nokogiri", ">= 1.18.3"
 gem "rss"
 
 # Assets
@@ -36,10 +36,10 @@ group :development, :test do
   gem "listen"
   gem "pry-byebug"
   gem "rubocop"
-  gem "rubocop-discourse"
-  gem "rubocop-performance"
-  gem "rubocop-rails"
-  gem "rubocop-rspec"
+  gem "rubocop-discourse", ">= 3.10.0"
+  gem "rubocop-performance", ">= 1.24.0"
+  gem "rubocop-rails", ">= 2.30.0"
+  gem "rubocop-rspec", ">= 3.5.0"
   gem "ruby-prof"
   gem "sqlite3"
 end
