@@ -17,7 +17,7 @@ gem "octokit"
 gem "puma"
 
 gem "diffy"
-gem "nokogiri"
+gem "nokogiri", ">= 1.18.4"
 gem "rss"
 
 # Assets
