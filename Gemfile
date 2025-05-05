@@ -3,10 +3,10 @@
 source "https://rubygems.org"
 ruby "3.1.2"
 
-gem "rails", "~> 7.0", ">= 7.0.0"
+gem "rails", "~> 7.2", ">= 7.2.0"
 
 # hacks for rails6 + ruby 3.1
-gem 'net-imap', require: false
+gem 'net-imap', '>= 0.3.9', require: false
 gem 'net-pop', require: false
 gem 'net-smtp', require: false
 
